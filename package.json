@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Ly900/hiit-timer/issues"
   },
-  "homepage": "https://ly900.github.io/hiit-timer/public/index.html",
+  "homepage": "https://ly900.github.io/hiit-timer",
   "dependencies": {},
   "devDependencies": {
     "gh-pages": "^2.2.0",

@@ -1,0 +1,83 @@
+[{
+		"screenNum": 0,
+		"statePropToChange": "timerType",
+		"hasIcons": true,
+		"buttonInfo": [{
+				"icon": "icon-ring-simple.png",
+				"text": "Simple",
+				"value": "simple"
+			},
+			{
+				"icon": "icon-ring-custom.png",
+				"text": "Complex",
+				"value": "complex"
+			}
+		]
+	},
+	{
+		"screenNum": 1,
+		"statePropToChange": "timeOn",
+		"hasIcons": false,
+		"buttonInfo": [{
+				"text": "0:20",
+				"value": 20
+			},
+			{
+				"text": "0:30",
+				"value": 30
+			},
+			{
+				"text": "0:45",
+				"value": 45
+			},
+			{
+				"text": "1:00",
+				"value": 60
+			}
+		]
+	},
+	{
+		"screenNum": 2,
+		"statePropToChange": "timeOff",
+		"hasIcons": false,
+		"buttonInfo": [{
+				"text": "0:10",
+				"value": 10
+			},
+			{
+				"text": "0:30",
+				"value": 30
+			},
+			{
+				"text": "1:00",
+				"value": 60
+			},
+			{
+				"text": "2:00",
+				"value": 120
+			}
+		]
+	},
+	{
+		"screenNum": 3,
+		"statePropToChange": "numOfSets",
+		"hasIcons": false,
+		"buttonInfo": [{
+				"text": "5",
+				"value": 5
+			},
+			{
+				"text": "8",
+				"value": 8
+			},
+			{
+				"text": "10",
+				"value": 10
+			},
+			{
+				"text": "16",
+				"value": 16
+			}
+		]
+	}
+]

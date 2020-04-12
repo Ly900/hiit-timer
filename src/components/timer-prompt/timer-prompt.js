@@ -1,10 +1,4 @@
 import React from 'react';
-
-//images
-// import ringSimple from '../../assets/icon-ring-simple.png';
-// import ringCustom from '../../assets/icon-ring-custom.png';
-
-//components
 import { Button } from '../button/button';
 
 export const TimerPrompt = (props) => {

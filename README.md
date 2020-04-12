@@ -1,4 +1,4 @@
-# [HIIT Tabata Interval Workout Timer](https://ly900.github.io/hiit-timer/public/index.html)
+# [HIIT Tabata Interval Workout Timer](https://ly900.github.io/hiit-timer/index.html)
 A HIIT or Tabata-style timer to help you exercise, lose weight, and burn fat.
 
 ## Features

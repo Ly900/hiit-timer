@@ -19,7 +19,7 @@ export const Header = (props) => {
 			break;
 		case 2:
 			iconToShow = <img className="timer__prompt-icon" src={redHeart} alt="" />;
-			titleToShow = <h2 className="timer__screen-title">Rest Time</h2>;
+			titleToShow = <h2 className="timer__screen-title">Rest<br /> Time</h2>;
 			break;
 		case 3:
 			iconToShow = <img className="timer__prompt-icon" src={redHeart} alt="" />;
@@ -27,7 +27,7 @@ export const Header = (props) => {
 			break;
 		case 4:
 			iconToShow = <img className="timer__prompt-icon" src={redHeart} alt="" />;
-			titleToShow = <h2 className="timer__screen-title">Ready?</h2>;
+			titleToShow = <h2 className="timer__screen-title">Get Set</h2>;
 			break;
 		default:
 			iconToShow = null;

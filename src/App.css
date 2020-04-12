@@ -25,6 +25,8 @@ body {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-row-gap: 1em; }
+    .timer__container_screen_0 {
+      grid-row-gap: 2em; }
   .timer__header {
     text-align: center;
     display: grid;
@@ -36,9 +38,7 @@ body {
   .timer__prompt-icon {
     max-width: 80px; }
   .timer__logo-img {
-    max-width: 250px;
-    margin-top: 35%;
-    margin-bottom: 10%; }
+    max-width: 250px; }
   .timer__screen-title {
     width: 90%;
     text-transform: uppercase;
@@ -50,6 +50,8 @@ body {
     display: grid;
     grid-row-gap: 1em;
     justify-content: center; }
+    .timer__body_screen_0 {
+      grid-row-gap: 1.5em; }
   .timer__text {
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;

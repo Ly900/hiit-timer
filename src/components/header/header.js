@@ -35,7 +35,7 @@ export const Header = (props) => {
 	}
 
 	return (
-		<header className={`timer__header`}>
+		<header className={`timer__header timer__header_screen_${props.currentScreen}`}>
 			<h1 className="timer__main-heading sr-only">HIIT Timer</h1>
 			<picture className="">
 				{iconToShow}

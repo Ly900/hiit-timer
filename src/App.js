@@ -28,15 +28,15 @@ class Timer extends React.Component {
 	}
 
 	handleClick = (btnInfo, e) => {
-		console.log("btnInfo: ", btnInfo);
-		console.log("e data-value: ", e.target.getAttribute("data-value"));
+		// console.log("btnInfo: ", btnInfo);
+		// console.log("e data-value: ", e.target.getAttribute("data-value"));
 		const statePropToChange = btnInfo.statePropToChange;
 		const val = e.target.getAttribute("data-value");
 		this.setState(
 			{
 				[statePropToChange]: val
 			}, () => {
-				console.log("this.state: ", this.state);
+				// console.log("this.state: ", this.state);
 				this.nextScreen();
 			})
 

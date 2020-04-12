@@ -31,6 +31,8 @@ body {
     flex-direction: column;
     align-items: center;
     grid-row-gap: 1.5em; }
+    .timer__header_screen_4 {
+      margin-bottom: 1em; }
   .timer__prompt-icon {
     max-width: 80px; }
   .timer__logo-img {
@@ -48,17 +50,19 @@ body {
     display: grid;
     grid-row-gap: 1em;
     justify-content: center; }
+  .timer__text {
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff; }
   .timer__btn {
     background: #363e4d;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: #fff;
-    text-transform: uppercase;
-    -webkit-font-smoothing: antialiased;
     padding: .25em .5em .25em .25em;
-    font-size: 3rem;
-    font-weight: 300;
     border: none;
     min-width: 300px; }
   .timer__btn-picture {
@@ -72,6 +76,27 @@ body {
     text-align: left; }
     .timer__btn-text_no-icon {
       text-align: center; }
+  .timer__get-set-item {
+    display: grid;
+    justify-items: center;
+    line-height: .8;
+    margin-bottom: 1.5em; }
+  .timer__get-set-property {
+    font-size: 2.2rem;
+    text-align: center; }
+  .timer__get-set-value {
+    font-size: 5.5rem;
+    color: #21f2ba;
+    margin-top: -.1em; }
+  .timer__go-btn {
+    min-width: 250px;
+    background-color: #21f2ba;
+    padding: .2em .5em;
+    border-radius: 10px;
+    border: none;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(54, 28, 4, 0.5); }
 
 .sr-only {
   position: absolute;

@@ -1,11 +1,11 @@
 import React from 'react';
 
 export const Button = (props) => {
-	
+
 	const btnText = props.btnInfo.text;
 	const btnInfo = props.btnInfo;
 	const screenInfo = props.screenInfo;
-	const btnClass = props.btnInfo.icon ? "timer__btn-text" : "timer__btn-text timer__btn-text_no-icon";
+	const btnClass = props.btnInfo.icon ? "timer__btn-text timer__text" : "timer__btn-text timer__text timer__btn-text_no-icon";
 	// console.log("props.screenInfo: ", props.screenInfo);
 	// console.log("button props: ", props.btnInfo);
 

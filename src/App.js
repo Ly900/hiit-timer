@@ -63,6 +63,9 @@ class Timer extends React.Component {
 				<TimerPrompt
 					nextScreen={this.nextScreen}
 					loading={this.state.loading}
+					timeOn={this.state.timeOn}
+					timeOff={this.state.timeOff}
+					numOfSets={this.state.numOfSets}
 					currentScreen={this.state.screenNum}
 					bodyContentInfo={this.state.bodyContentInfo}
 					handleClick={this.handleClick} />

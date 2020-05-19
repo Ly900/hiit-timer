@@ -8,6 +8,9 @@ export const TimerPrompt = (props) => {
 	}
 
 	const screenToDisplay = props.bodyContentInfo.filter((item) => item.screenNum === props.currentScreen);
+	const timeOn = props.timeOn;
+	const timeOff = props.timeOff;
+	const numOfSets = props.numOfSets;
 
 	// If buttons are coming from data in the JSON...
 	let displayButtons = screenToDisplay.map((button) => {
@@ -29,15 +32,15 @@ export const TimerPrompt = (props) => {
 			<div>
 				<div className="timer__get-set-item">
 					<span className="timer__text timer__get-set-property">Sets</span>
-					<span className="timer__text timer__get-set-value">5</span>
+					<span className="timer__text timer__get-set-value">{numOfSets}</span>
 				</div>
 				<div className="timer__get-set-item">
 					<span className="timer__text timer__get-set-property">Exercise<br /> Time</span>
-					<span className="timer__text timer__get-set-value">20</span>
+					<span className="timer__text timer__get-set-value">{timeOn}</span>
 				</div>
 				<div className="timer__get-set-item">
 					<span className="timer__text timer__get-set-property">Rest<br />  Time</span>
-					<span className="timer__text timer__get-set-value">10</span>
+					<span className="timer__text timer__get-set-value">{timeOff}</span>
 				</div>
 				<div className="timer__get-set-item">
 					<button className="timer__text timer__go-btn">Go!</button>

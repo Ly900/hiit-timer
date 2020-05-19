@@ -39,7 +39,7 @@ export const TimerPrompt = (props) => {
 					<span className="timer__text timer__get-set-value">{timeOn}</span>
 				</div>
 				<div className="timer__get-set-item">
-					<span className="timer__text timer__get-set-property">Rest<br />  Time</span>
+					<span className="timer__text timer__get-set-property">Rest<br /> Time</span>
 					<span className="timer__text timer__get-set-value">{timeOff}</span>
 				</div>
 				<div className="timer__get-set-item">

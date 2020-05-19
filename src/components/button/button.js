@@ -16,7 +16,7 @@ export const Button = (props) => {
 					<img src={require(`../../assets/${btnInfo.icon}`)} className="timer__btn-icon" alt="" />
 				</picture>}
 
-			<span className={btnClass} data-value={`${btnInfo.value}`}>{btnText}</span>
+			<span className={btnClass} data-value={`${btnText}`}>{btnText}</span>
 		</button>
 	)
 }

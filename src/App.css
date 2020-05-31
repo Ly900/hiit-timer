@@ -88,11 +88,11 @@ body {
     text-align: center; }
   .timer__get-set-value {
     font-size: 5.5rem;
-    color: #21f2ba;
-    margin-top: -.1em; }
+    color: #0decb0;
+    margin-top: 0; }
   .timer__go-btn {
     min-width: 250px;
-    background-color: #21f2ba;
+    background-color: #0decb0;
     padding: .2em .5em;
     border-radius: 10px;
     border: none;

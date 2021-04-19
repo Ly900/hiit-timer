@@ -15,10 +15,6 @@ A HIIT or Tabata-style timer to help you exercise, lose weight, and burn fat.
 
 *Note: All requirements below are for the Simple Interval Timer only.*
 
-## Dev Notes
-* npm start
-* sass --watch ./src/App.scss:./App.css
-
 ## User Stories
 
 * MVP
@@ -63,3 +59,8 @@ A HIIT or Tabata-style timer to help you exercise, lose weight, and burn fat.
 * If I choose to end the workout, I am returned to the Home screen.
 
 <center><img src="/src/assets/hiit-timer-screenshot.png" alt="HIIT Timer" width=50%></center>
+
+
+## Dev Notes
+* npm start
+* sass --watch ./src/App.scss:./App.css

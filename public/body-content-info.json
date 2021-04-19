@@ -79,5 +79,15 @@
 				"value": 16
 			}
 		]
+	},
+	{
+		"screenNum": 4,
+		"statePropToChange": "getSet",
+		"hasIcons": false,
+		"buttonInfo": [{
+				"text": "Go!",
+				"value": "Go"
+			}
+		]
 	}
 ]

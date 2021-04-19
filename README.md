@@ -2,18 +2,22 @@
 A HIIT or Tabata-style timer to help you exercise, lose weight, and burn fat.
 
 ## Features
-- React 16.8.6
-- React functional and class components
-- ES6
-- Babel 6.26.0
-- Sass
-- CSS Grid
-- Flexbox
-- Mobile first
-- Responsive
-- Created ______
+* React 16.8.6
+* React functional and class components
+* ES6
+* Babel 6.26.0
+* Sass
+* CSS Grid
+* Flexbox
+* Mobile first
+* Responsive
+* Created ______
 
 *Note: All requirements below are for the Simple Interval Timer only.*
+
+## Dev Notes
+* npm start
+* sass --watch ./src/App.scss:./App.css
 
 ## User Stories
 

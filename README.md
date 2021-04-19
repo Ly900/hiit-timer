@@ -38,8 +38,8 @@ A HIIT or Tabata-style timer to help you exercise, lose weight, and burn fat.
 #### Screen 4: Summary
 * Before starting the workout, I can see what I chose for my workout.
   * Before starting the workout, I have the option to modify the workout.
+* I can click Go! to start the workout.
 #### Screen 5: Workout
-* I can start the workout.
 * During the workout, I can see which set I am on out of the total number of sets I chose.
 * During the workout, I can see if I should be exercising or resting.
 * During the workout, I can see a timer to know how much time is left of the exercise or rest period.

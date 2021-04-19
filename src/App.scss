@@ -105,6 +105,20 @@ body {
     min-width: 300px;
   }
 
+  &__btn_go-btn-container {
+    justify-content: center;
+    min-width: 220px;
+    background-color: $accentColor;
+    border-radius: 10px;
+    border: none;
+  }
+
+  &__go-btn {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(54, 28, 4, .5);
+  }
+
   &__btn-picture {
     display: inline-flex;
     flex-direction: column;
@@ -128,7 +142,7 @@ body {
     display: grid;
     justify-items: center;
     line-height: .8;
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
   }
 
   &__get-set-property {
@@ -140,17 +154,6 @@ body {
     font-size: 3.8rem;
     color: $accentColor;
     margin-top: 0;
-  }
-
-  &__go-btn {
-    min-width: 220px;
-    background-color: $accentColor;
-    padding: .2em;
-    border-radius: 10px;
-    border: none;
-    font-size: 4rem;
-    font-weight: bold;
-    text-shadow: 0px 0px 5px rgba(54, 28, 4, .5);
   }
 }
 

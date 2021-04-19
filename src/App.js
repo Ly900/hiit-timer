@@ -49,6 +49,7 @@ class Timer extends React.Component {
 				this.setState(
 					{
 						loading: false,
+						// screenNum: 3,
 						bodyContentInfo: data
 					}, () => {
 						// console.log("bodyContentInfo: ", this.state.bodyContentInfo);
